@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+      <parameter name="Platform" value="Android"></parameter>
+        <parameter name="Device" value="FirstEmulator"></parameter>
+        <parameter name="Name" value="HeadzApp_5_Dec_Debug_V_1.0"></parameter>
+        <parameter name="Mobile" value="23045841201"></parameter>
+        <classes>
+	<class name="screenTest.HomeTest"></class>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
